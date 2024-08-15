@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+        font-family: cursive;
+        }
+        body{
+            background-color: gray;
+        }
+        .nav_container{
+            background-color: black;
+            height:70px ;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .btn{
+            color: black;
+            background-color: white;
+            height: 40px;
+            width: 100px;
+            text-align: center;
+            align-content: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .main{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main div h1{
+            background-color: rgb(165, 165, 226);
+            width: 400px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px black;
+        }
+        .section{
+            margin-top: 20px;
+            height: 600px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.3);
+            justify-content: space-evenly;
+            border-radius: 30px;
+            box-shadow: 10px 10px 20px black;
+        }
+        .section h3{
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            color:white;
+        }
+        .section img{
+            height: 300px;
+            width: 250px;
+        }
+        .section p{
+            margin-top: 10px;
+            width: 300px;
+            text-align: justify;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav_container">
+        <a href="index.html" class="btn">Home</a>
+        <a href="./lib.html" class="btn">Book</a>
+        <a href="./aboutus.html" class="btn">About Us</a>
+    </div>
+   <div class="main">
+    <div>
+        <h1>Book Collection</h1>
+    </div>
+    <div class="section" id="one">
+        <h3>1 Agnipankh</h3>
+        <img src="./images/agnipankh.webp"/>
+        <p>Rich Dad Poor Dad" by Robert Kiyosaki contrasts the financial mindsets of two father figures in the author’s life—his own father (Poor Dad) and his friend’s father (Rich Dad). Through this comparison, Kiyosaki challenges traditional beliefs about money and education, advocating for financial literacy, entrepreneurship, and the importance of understanding assets and liabilities to build wealth</p>
+    </div>
+    <div class="section" id="two">
+        <h3>2 Rich Dad and Poor Dad</h3>
+        <img src="./images/richdadpoordad.jpg"/>
+        <p>Rich Dad Poor Dad" by Robert Kiyosaki contrasts the financial mindsets of two father figures in the author’s life—his own father (Poor Dad) and his friend’s father (Rich Dad). Through this comparison, Kiyosaki challenges traditional beliefs about money and education, advocating for financial literacy, entrepreneurship, and the importance of understanding assets and liabilities to build wealth</p>
+    </div>
+    <div class="section" id="three">
+        <h3>3 Black Whole</h3>
+        <img src="./images/blackwhole.jpg"/>
+        <p>The Black Hole" is a fascinating topic that delves into one of the most mysterious and intriguing phenomena in the universe. Black holes are regions in space where gravity is so strong that nothing, not even light, can escape from them. Formed when massive stars collapse under their own gravity, black holes challenge our understanding of physics and the nature of the cosmos.</p>
+    </div>
+    <div class="section" id="four">
+        <h3>4 Atomic Habit</h3>
+        <img src="./images/AutomaticHabit.jpg"/>
+        <p>Atomic Habits" by James Clear delves into the science of habit formation, emphasizing the importance of small, consistent changes that lead to significant improvements over time. Clear provides practical strategies for breaking bad habits and developing good ones, showing how tiny habits can compound into remarkable results, ultimately helping individuals achieve their long-term goals</p>
+    </div>
+    <div class="section" id="five">
+        <h3>5 The Art of Happiness</h3>
+        <img src="./images/ArtofHappiness.webp"/>
+        <p>The Art of Happiness," co-authored by the Dalai Lama and Howard Cutler, offers profound wisdom on achieving true happiness. Blending Eastern spiritual practices with Western psychology, the book emphasizes the importance of compassion, mindfulness, and inner peace. Through conversations and reflections, it provides practical advice on overcoming life’s challenges and cultivating a joyful, meaningful existence</p>
+    </div>
+    <div class="section" id="six">
+        <h3>6 Ikagai</h3>
+        <img src="./images/Ikagai.jpg"/>
+        <p>Ikigai," written by Héctor García and Francesc Miralles, explores the Japanese concept of finding one's "reason for being." The book guides readers in discovering their own Ikigai by balancing passion, mission, profession, and vocation. Through insights from the residents of Okinawa, known for their longevity, the authors illustrate how finding purpose in life can lead to happiness and fulfillment</p>
+    </div>
+   </div>
+</body>
+</html>
