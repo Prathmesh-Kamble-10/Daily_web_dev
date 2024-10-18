@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<person>
+<name>Shubham</name>
+<addresss>Pune</addresss>
+</person>
+
+<student>
+<name>Prathmesh</name>
+<addresss>Bengluru</addresss>
+</student>
+</data>
+<!-- json
+person:[{
+    name:"shubham",
+    address:"Pune"
+},
+{
+    name:"prathmesh",
+    address:"Bengluru"
+}
+] -->
