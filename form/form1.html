@@ -1,35 +1,96 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>Login Page</title>
 
 </head>
+
 <body>
     <header>
         <h2>Login Page</h2>
     </header>
     <section>
+        <!-- form tag -->
         <form method="get" action="index.php">
-        <label for="uname">User Name : </label>
-        <input type="text" name="name" id="uname"/>
-        <br>
-        <br>
-        <label for="pwd">Password : </label>
-        <input type="password" name="pass" id="pwd"/>
-        <br>
-        <br>
-        <label for="add1">Address : </label>
-        <textarea name="add" id="add1">
+            <!-- label tag and input text type -->
+            <label for="uname">User Name : </label>
+            <input type="text" name="name" id="uname" required />
+            <br>
+            <br>
+            <!-- password input type -->
+            <label for="pwd">Password : </label>
+            <input type="password" name="pass" id="pwd" required />
+            <br>
+            <br>
+            <!-- text area tag -->
+            <label for="add1">Address : </label>
+            <textarea name="add" id="add1" required>
         </textarea>
-        <br>
-        <br>
-        <label for="mobi">Mobile No : </label>
-        <input type="number" id="mobi" name="mobil">
-        <br>
-        <br>
-        <input type="submit" value="click">
-        <button>Login</button>
+            <br>
+            <br>
+            <!-- Number input type -->
+            <label for="mobi">Mobile No : </label>
+            <input type="number" id="mobi" name="mobil" required>
+            <br>
+            <br>
+            <!-- radio input type -->
+            <label for="radiogrp">Gender : </label>
+            <input type="radio" id="radiogrp" name="gp"> Male
+            <input type="radio" id="radiogrp" name="gp"> Female
+            <br>
+            <br>
+            <!-- Checkbox input type -->
+            <label for="check">What is your favorite Language</label>
+            <input type="checkbox" name="Language" id="check" disabled> Python
+            <input type="checkbox" name="Language" id="check"> Javascript
+            <input type="checkbox" name="Language" id="check"> PHP
+            <br>
+            <br>
+            <!-- email input type -->
+            <label for="emailf">Enter your mail : </label>
+            <input type="email">
+            <br>
+            <br>
+
+            <!-- file type -->
+            upload your document :
+            <input type="file">
+            <br>
+            <br>
+
+            <!-- color input type -->
+            <input type="color">
+            <br>
+            <br>
+            <!--  date input type -->
+            <input type="date" value="">
+            <br>
+            <br>
+            <!-- time input type -->
+            <input type="time">
+            <br><br>
+
+            <!-- range input type -->
+            <input type="range">
+            <br><br>
+            <!-- search input type -->
+            <input type="search" placeholder="search">
+            <br><br>
+            <!-- input type tel -->
+            <input type="tel" value="+91 ">
+            <br><br>
+            <label for="start">Start month:</label>
+            <input type="month" id="start" name="start" min="2018-03" value="2018-05" />
+            <br><br>
+            <!-- input type reset -->
+            <input type="reset">
+            <!-- input submit type -->
+            <input type="submit" value="click">
+            <!-- button tag -->
+            <button>Login</button>
         </form>
     </section>
 </body>
+
 </html>
